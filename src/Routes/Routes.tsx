@@ -15,11 +15,13 @@ import MerchantCustomers from "../pages/dashboard/Merchant/MerchantCustomers";
 import MerchantContribution from "../pages/dashboard/Merchant/MerchantContribution";
 import MerchantNotification from "../pages/dashboard/Merchant/MerchantNotification";
 import RoleRedirect from "./RoleRedirect";
+import NotFound from "../pages/NotFound";
 
 let router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <NotFound />,
     children: [
       { path: "/", element: <Homepage /> },
       { path: "/login/admin", element: <AdminLogin /> },
