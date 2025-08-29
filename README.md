@@ -8,13 +8,9 @@ Supports separate dashboards for **Admin**, **Merchant**, and **Member** users w
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Login Credentials](#login-credentials)
 - [Project Structure](#project-structure)
-- [Notes](#notes)
-- [License](#license)
 
 ---
 
@@ -68,27 +64,27 @@ npm run dev
 http://localhost:5173
 ```
 
-##Login Credentials
+### Login Credentials
 
-###Admin
+## Admin
 
 Email: admin@test.com
 
 Password: admin123
 
-###Merchant
+## Merchant
 
 Store ID: store173
 
 Password: merchant123
 
-###Member
+## Member
 
 Phone: 1234567890
 
 Password: member123
 
-#Project Structure
+### Project Structure
 
 src/
 ├─ components/
