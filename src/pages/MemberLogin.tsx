@@ -89,7 +89,7 @@ export default function MemberLogin() {
 
           <button
             type="submit"
-            className="w-full bg-purple-600 text-white p-2 rounded hover:bg-purple-700 transition cursor-pointer"
+            className="w-full bg-[#FAFFCA] text-black font-bold p-2 rounded hover:bg-[#FAFFCA]/80 transition cursor-pointer"
           >
             Login
           </button>

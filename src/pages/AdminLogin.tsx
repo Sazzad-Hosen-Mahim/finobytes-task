@@ -59,7 +59,7 @@ export default function AdminLogin() {
             className="w-full p-2 border rounded"
           />
           {error && <p className="text-red-500">{error}</p>}
-          <button className="w-full bg-blue-600 text-white p-2 rounded cursor-pointer hover:bg-blue-700 transition">
+          <button className="w-full bg-[#FAFFCA] text-black font-bold p-2 rounded cursor-pointer hover:bg-[#FAFFCA]/80 transition">
             Login
           </button>
         </form>

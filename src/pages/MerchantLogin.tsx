@@ -87,7 +87,7 @@ export default function MerchantLogin() {
 
           <button
             type="submit"
-            className="w-full bg-green-600 text-white p-2 rounded hover:bg-green-700 transition"
+            className="w-full bg-[#FAFFCA] text-black font-bold p-2 rounded hover:bg-[#FAFFCA]/80 transition"
           >
             Login
           </button>
